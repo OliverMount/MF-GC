@@ -1,0 +1,128 @@
+GRANULE_CA.cpp: ../mod/GRANULE_CA.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_CA.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_CA.o: GRANULE_CA.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_CALC.cpp: ../mod/GRANULE_CALC.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_CALC.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_CALC.o: GRANULE_CALC.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_KA.cpp: ../mod/GRANULE_KA.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_KA.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_KA.o: GRANULE_KA.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_KCA.cpp: ../mod/GRANULE_KCA.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_KCA.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_KCA.o: GRANULE_KCA.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_KIR.cpp: ../mod/GRANULE_KIR.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_KIR.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_KIR.o: GRANULE_KIR.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_KM.cpp: ../mod/GRANULE_KM.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_KM.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_KM.o: GRANULE_KM.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_KV.cpp: ../mod/GRANULE_KV.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_KV.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_KV.o: GRANULE_KV.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_LKG1.cpp: ../mod/GRANULE_LKG1.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_LKG1.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_LKG1.o: GRANULE_LKG1.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_LKG2.cpp: ../mod/GRANULE_LKG2.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_LKG2.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_LKG2.o: GRANULE_LKG2.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_NA.cpp: ../mod/GRANULE_NA.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_NA.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_NA.o: GRANULE_NA.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_NAR.cpp: ../mod/GRANULE_NAR.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_NAR.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_NAR.o: GRANULE_NAR.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_Nmda_leak.cpp: ../mod/GRANULE_Nmda_leak.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_Nmda_leak.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_Nmda_leak.o: GRANULE_Nmda_leak.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_Nmda_leak_linear.cpp: ../mod/GRANULE_Nmda_leak_linear.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_Nmda_leak_linear.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_Nmda_leak_linear.o: GRANULE_Nmda_leak_linear.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_PNA.cpp: ../mod/GRANULE_PNA.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_PNA.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_PNA.o: GRANULE_PNA.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+GRANULE_tonicGABA.cpp: ../mod/GRANULE_tonicGABA.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "GRANULE_tonicGABA.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./GRANULE_tonicGABA.o: GRANULE_tonicGABA.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+
+vecstim.cpp: ../mod/vecstim.mod $(NOCMODL)
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mod";  MODLUNIT=$(NRNUNITS) $(NOCMODL) "vecstim.mod"  -o "/home/oliver/GranularLayerModel/src/x86_64" )
+
+./vecstim.o: vecstim.cpp
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) /home/oliver/GranularLayerModel/src/x86_64/$<\\n"
+	$(CXXCOMPILE) -I"../mod" $(INCLUDES) -fPIC -c "/home/oliver/GranularLayerModel/src/x86_64/$<" -o $@
+

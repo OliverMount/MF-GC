@@ -1,0 +1,504 @@
+numprocs=15
+[Rank0] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank0 : Timing] START @ +0.026 sec
+
+[Rank1] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank1 : Timing] START @ +0.011 sec
+
+[Rank2] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank2 : Timing] START @ +0.020 sec
+
+[Rank6] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank6 : Timing] START @ +0.009 sec
+
+[Rank7] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank7 : Timing] START @ +0.016 sec
+
+[Rank8] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank8 : Timing] START @ +0.027 sec
+
+[Rank11] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank11 : Timing] START @ +0.026 sec
+
+[Rank12] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank12 : Timing] START @ +0.027 sec
+
+[Rank14] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank14 : Timing] START @ +0.010 sec
+
+[Rank13] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank3] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank4] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank4 : Timing] START @ +0.026 sec
+[Rank5] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank5 : Timing] START @ +0.027 sec
+
+[Rank9] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank9 : Timing] START @ +0.026 sec
+
+[Rank10] : db_file_used ../connectivity/mf_grc_scaled_80.db
+[Rank10 : Timing] START @ +0.020 sec
+
+[Rank13 : Timing] START @ +0.020 sec
+
+[Rank3 : Timing] START @ +0.025 sec
+
+
+[Rank0 : Timing] Update worker table @ +0.026 sec
+
+++ Clearing worker table at rank 0 for every new run
+++ [Rank0] : Creating extra synapse table headers for ==> Rank0
+++ [Rank0] : Creating extra synapse table headers for ==> Rank1
+++ [Rank0] : Creating extra synapse table headers for ==> Rank2
+++ [Rank0] : Creating extra synapse table headers for ==> Rank3
+++ [Rank0] : Creating extra synapse table headers for ==> Rank4
+++ [Rank0] : Creating extra synapse table headers for ==> Rank5
+++ [Rank0] : Creating extra synapse table headers for ==> Rank6
+++ [Rank0] : Creating extra synapse table headers for ==> Rank7
+++ [Rank0] : Creating extra synapse table headers for ==> Rank8
+++ [Rank0] : Creating extra synapse table headers for ==> Rank9
+++ [Rank0] : Creating extra synapse table headers for ==> Rank10
+++ [Rank0] : Creating extra synapse table headers for ==> Rank11
+++ [Rank0] : Creating extra synapse table headers for ==> Rank12
+++ [Rank0] : Creating extra synapse table headers for ==> Rank13
+++ [Rank0] : Creating extra synapse table headers for ==> Rank14
+[Rank5 : Timing] GID assignment @ +0.183 sec
+
+[Rank9 : Timing] GID assignment @ +0.183 sec
+
+[Rank8 : Timing] GID assignment @ +0.183 sec
+
+[Rank11 : Timing] GID assignment @ +0.183 sec
+
+[Rank14 : Timing] GID assignment @ +0.167 sec
+
+[Rank12 : Timing] GID assignment @ +0.183 sec
+
+[Rank0 : Timing] GID assignment @ +0.183 sec
+
+[Rank4 : Timing] GID assignment @ +0.182 sec
+
+[Rank1 : Timing] GID assignment @ +0.167 sec
+
+[Rank10 : Timing] GID assignment @ +0.176 sec
+
+[Rank13 : Timing] GID assignment @ +0.176 sec
+
+[Rank3 : Timing] GID assignment @ +0.181 sec
+
+[Rank2 : Timing] GID assignment @ +0.176 sec
+
+[Rank6 : Timing] GID assignment @ +0.166 sec
+
+[Rank7 : Timing] GID assignment @ +0.172 sec
+
+[rank12] : No. of cells assigned ==> 26640
+[rank2] : No. of cells assigned ==> 26640
+[rank7] : No. of cells assigned ==> 26640
+[rank11] : No. of cells assigned ==> 26640
+[rank10] : No. of cells assigned ==> 26640
+[rank8] : No. of cells assigned ==> 26640
+[rank13] : No. of cells assigned ==> 26640
+[rank14] : No. of cells assigned ==> 26640
+[Rank13 : Timing] Synapse data per rank @ +0.691 sec
+
+++ [Rank13] : DB path is ../connectivity/synapse_rank13.db
+[Rank2 : Timing] Synapse data per rank @ +0.692 sec
+
+[Rank10 : Timing] Synapse data per rank @ +0.691 sec
+
+++ [Rank10] : DB path is ../connectivity/synapse_rank10.db
+[Rank11 : Timing] Synapse data per rank @ +0.698 sec
+
+++ [Rank2] : DB path is ../connectivity/synapse_rank2.db
+++ [Rank11] : DB path is ../connectivity/synapse_rank11.db
+[Rank8 : Timing] Synapse data per rank @ +0.699 sec
+
+[Rank12 : Timing] Synapse data per rank @ +0.699 sec
+
+[Rank7 : Timing] Synapse data per rank @ +0.688 sec
+
+++ [Rank8] : DB path is ../connectivity/synapse_rank8.db
+++ [Rank12] : DB path is ../connectivity/synapse_rank12.db
+++ [Rank7] : DB path is ../connectivity/synapse_rank7.db
+[Rank14 : Timing] Synapse data per rank @ +0.690 sec
+
+++ [Rank14] : DB path is ../connectivity/synapse_rank14.db
+[rank3] : No. of cells assigned ==> 26640
+[rank5] : No. of cells assigned ==> 26640
+[rank0] : No. of cells assigned ==> 26640
+[rank4] : No. of cells assigned ==> 26640
+[rank6] : No. of cells assigned ==> 26640
+[rank1] : No. of cells assigned ==> 26640
+[rank9] : No. of cells assigned ==> 26640
+[Rank3 : Timing] Synapse data per rank @ +0.826 sec
+
+++ [Rank3] : DB path is ../connectivity/synapse_rank3.db
+[Rank0 : Timing] Synapse data per rank @ +0.841 sec
+
+[Rank5 : Timing] Synapse data per rank @ +0.841 sec
+
+++ [Rank5] : DB path is ../connectivity/synapse_rank5.db
+++ [Rank0] : DB path is ../connectivity/synapse_rank0.db
+[Rank4 : Timing] Synapse data per rank @ +0.846 sec
+
+++ [Rank4] : DB path is ../connectivity/synapse_rank4.db
+[Rank13 : Timing] Creating cells  @ +0.845 sec
+
+[Rank6 : Timing] Synapse data per rank @ +0.843 sec
+
+++ [Rank6] : DB path is ../connectivity/synapse_rank6.db
+[Rank1 : Timing] Synapse data per rank @ +0.850 sec
+
+++ [Rank1] : DB path is ../connectivity/synapse_rank1.db
+[Rank2 : Timing] Creating cells  @ +0.861 sec
+
+[Rank9 : Timing] Synapse data per rank @ +0.874 sec
+
+++ [Rank9] : DB path is ../connectivity/synapse_rank9.db
+[Rank8 : Timing] Creating cells  @ +0.889 sec
+
+[Rank14 : Timing] Creating cells  @ +0.881 sec
+
+[Rank11 : Timing] Creating cells  @ +0.897 sec
+
+[Rank7 : Timing] Creating cells  @ +0.886 sec
+
+[Rank10 : Timing] Creating cells  @ +0.900 sec
+
+[Rank12 : Timing] Creating cells  @ +0.907 sec
+
+[Rank3 : Timing] Creating cells  @ +0.978 sec
+
+[Rank5 : Timing] Creating cells  @ +1.013 sec
+
+[Rank0 : Timing] Creating cells  @ +1.016 sec
+
+[Rank4 : Timing] Creating cells  @ +1.022 sec
+
+[Rank1 : Timing] Creating cells  @ +1.025 sec
+
+[Rank9 : Timing] Creating cells  @ +1.045 sec
+
+[Rank6 : Timing] Creating cells  @ +1.032 sec
+
+[Rank2 : Timing] Establish synaptic links @ +116.748 sec
+
+[Rank9 : Timing] Establish synaptic links @ +116.754 sec
+
+[Rank4 : Timing] Establish synaptic links @ +116.754 sec
+
+[Rank1 : Timing] Establish synaptic links @ +116.739 sec
+
+[Rank11 : Timing] Establish synaptic links @ +116.754 sec
+
+[Rank6 : Timing] Establish synaptic links @ +116.737 sec
+
+[Rank3 : Timing] Establish synaptic links @ +116.753 sec
+
+[Rank12 : Timing] Establish synaptic links @ +116.755 sec
+
+[Rank13 : Timing] Establish synaptic links @ +116.748 sec
+
+[Rank7 : Timing] Establish synaptic links @ +116.744 sec
+
+[Rank14 : Timing] Establish synaptic links @ +116.738 sec
+
+[Rank8 : Timing] Establish synaptic links @ +116.755 sec
+
+[Rank10 : Timing] Establish synaptic links @ +116.748 sec
+
+[Rank5 : Timing] Establish synaptic links @ +116.754 sec
+
+[Rank0 : Timing] Establish synaptic links @ +116.754 sec
+
+[Rank2 : Timing] Solving Equations @ +117.756 sec
+
+[Rank12 : Timing] Solving Equations @ +117.771 sec
+
+[Rank8 : Timing] Solving Equations @ +117.775 sec
+
+[Rank14 : Timing] Solving Equations @ +117.761 sec
+
+[Rank7 : Timing] Solving Equations @ +117.768 sec
+
+[Rank11 : Timing] Solving Equations @ +117.781 sec
+
+[Rank3 : Timing] Solving Equations @ +117.783 sec
+
+[Rank13 : Timing] Solving Equations @ +117.782 sec
+
+[Rank0 : Timing] Solving Equations @ +118.039 sec
+
+[Rank1 : Timing] Solving Equations @ +118.482 sec
+
+[Rank6 : Timing] Solving Equations @ +118.499 sec
+
+[Rank5 : Timing] Solving Equations @ +118.577 sec
+
+[Rank9 : Timing] Solving Equations @ +118.578 sec
+
+[Rank4 : Timing] Solving Equations @ +118.578 sec
+
+[Rank10 : Timing] Solving Equations @ +118.580 sec
+
+ num_mpi=15
+
+ Memory (MBs) :             After mk_mech : Max 523.6094, Min 518.9609, Avg 521.8687 
+ Memory (MBs) :            After MPI_Init : Max 523.8711, Min 518.9609, Avg 521.9042 
+ Memory (MBs) :          Before nrn_setup : Max 523.8711, Min 518.9609, Avg 521.9042 
+ Setup Done   : 0.26 seconds 
+ Model size   : 1.03 GB
+ Memory (MBs) :          After nrn_setup  : Max 607.0547, Min 601.1914, Avg 604.6648 
+GENERAL PARAMETERS
+--mpi=true
+--mpi-lib=
+--gpu=false
+--dt=0.025
+--tstop=2000
+
+GPU
+--nwarp=65536
+--cell-permute=0
+--cuda-interface=false
+
+INPUT PARAMETERS
+--voltage=1000
+--seed=-1
+--datpath=.
+--filesdat=./files.dat
+--pattern=
+--report-conf=
+--restore=     
+
+PARALLEL COMPUTATION PARAMETERS
+--threading=false
+--skip_mpi_finalize=true
+
+SPIKE EXCHANGE
+--ms_phases=2
+--ms_subintervals=2
+--multisend=false
+--spk_compress=0
+--binqueue=false
+
+CONFIGURATION
+--spikebuf=100000
+--prcellgid=-1
+--forwardskip=0
+--celsius=34
+--mindelay=0.2
+--report-buffer-size=4
+
+OUTPUT PARAMETERS
+--dt_io=0.1
+--outpath=.
+--checkpoint=
+
+ Start time (t) = 0
+
+ Memory (MBs) :  After mk_spikevec_buffer : Max 607.0547, Min 601.1914, Avg 604.6648 
+ Memory (MBs) :     After nrn_finitialize : Max 609.5547, Min 603.9414, Avg 607.2482 
+
+psolve |                                                         | t: 0.00   ETA: 0h00m00spsolve |                                                         | t: 2.12   ETA: 0h15m40spsolve |                                                         | t: 2.63   ETA: 0h25m21spsolve |                                                         | t: 4.38   ETA: 0h22m48spsolve |                                                         | t: 5.25   ETA: 0h25m19spsolve |                                                         | t: 7.00   ETA: 0h23m43spsolve |                                                         | t: 7.88   ETA: 0h25m17spsolve |                                                         | t: 10.00  ETA: 0h23m13spsolve |                                                         | t: 10.87  ETA: 0h24m23spsolve |                                                         | t: 11.75  ETA: 0h25m22spsolve |                                                         | t: 13.50  ETA: 0h24m31spsolve |                                                         | t: 14.37  ETA: 0h25m19spsolve |                                                         | t: 16.12  ETA: 0h24m36spsolve |                                                         | t: 17.00  ETA: 0h25m16spsolve |                                                         | t: 18.75  ETA: 0h24m39spsolve |                                                         | t: 19.62  ETA: 0h25m13spsolve |                                                         | t: 24.00  ETA: 0h24m42spsolve |                                                         | t: 27.50  ETA: 0h25m06spsolve |                                                         | t: 31.87  ETA: 0h24m41spsolve |=                                                        | t: 35.37  ETA: 0h24m59spsolve |=                                                        | t: 39.38  ETA: 0h24m53spsolve |=                                                        | t: 42.88  ETA: 0h25m06spsolve |=                                                        | t: 47.25  ETA: 0h24m47spsolve |=                                                        | t: 50.75  ETA: 0h24m57spsolve |=                                                        | t: 55.13  ETA: 0h24m41spsolve |=                                                        | t: 58.63  ETA: 0h24m50spsolve |=                                                        | t: 62.13  ETA: 0h24m57spsolve |=                                                        | t: 66.50  ETA: 0h24m42spsolve |=                                                        | t: 70.00  ETA: 0h24m48spsolve |==                                                       | t: 74.38  ETA: 0h24m35spsolve |==                                                       | t: 77.88  ETA: 0h24m40spsolve |==                                                       | t: 81.38  ETA: 0h24m45spsolve |==                                                       | t: 85.75  ETA: 0h24m33spsolve |==                                                       | t: 89.25  ETA: 0h24m37spsolve |==                                                       | t: 93.63  ETA: 0h24m26spsolve |==                                                       | t: 97.13  ETA: 0h24m29spsolve |==                                                       | t: 100.63 ETA: 0h24m32spsolve |==                                                       | t: 105.00 ETA: 0h24m21spsolve |===                                                      | t: 108.50 ETA: 0h24m24spsolve |===                                                      | t: 112.88 ETA: 0h24m14spsolve |===                                                      | t: 116.38 ETA: 0h24m16spsolve |===                                                      | t: 120.75 ETA: 0h24m07spsolve |===                                                      | t: 124.25 ETA: 0h24m09spsolve |===                                                      | t: 127.75 ETA: 0h24m10spsolve |===                                                      | t: 132.13 ETA: 0h24m01spsolve |===                                                      | t: 135.63 ETA: 0h24m03spsolve |===                                                      | t: 140.00 ETA: 0h23m54spsolve |====                                                     | t: 143.50 ETA: 0h23m56spsolve |====                                                     | t: 147.00 ETA: 0h23m57spsolve |====                                                     | t: 150.87 ETA: 0h23m53spsolve |====                                                     | t: 155.25 ETA: 0h23m45spsolve |====                                                     | t: 158.75 ETA: 0h23m46spsolve |====                                                     | t: 163.12 ETA: 0h23m38spsolve |====                                                     | t: 166.62 ETA: 0h23m39spsolve |====                                                     | t: 171.00 ETA: 0h23m31spsolve |====                                                     | t: 174.50 ETA: 0h23m32spsolve |=====                                                    | t: 178.00 ETA: 0h23m32spsolve |=====                                                    | t: 182.37 ETA: 0h23m25spsolve |=====                                                    | t: 185.87 ETA: 0h23m25spsolve |=====                                                    | t: 190.25 ETA: 0h23m18spsolve |=====                                                    | t: 193.75 ETA: 0h23m18spsolve |=====                                                    | t: 197.25 ETA: 0h23m18spsolve |=====                                                    | t: 201.62 ETA: 0h23m11spsolve |=====                                                    | t: 205.12 ETA: 0h23m11spsolve |=====                                                    | t: 209.50 ETA: 0h23m04spsolve |======                                                   | t: 213.00 ETA: 0h23m04spsolve |======                                                   | t: 216.50 ETA: 0h23m03spsolve |======                                                   | t: 220.87 ETA: 0h22m57spsolve |======                                                   | t: 224.37 ETA: 0h22m56spsolve |======                                                   | t: 228.75 ETA: 0h22m50spsolve |======                                                   | t: 232.25 ETA: 0h22m50spsolve |======                                                   | t: 235.75 ETA: 0h22m49spsolve |======                                                   | t: 240.12 ETA: 0h22m43spsolve |======                                                   | t: 243.62 ETA: 0h22m42spsolve |=======                                                  | t: 248.00 ETA: 0h22m36spsolve |=======                                                  | t: 251.50 ETA: 0h22m35spsolve |=======                                                  | t: 255.00 ETA: 0h22m34spsolve |=======                                                  | t: 259.37 ETA: 0h22m28spsolve |=======                                                  | t: 262.87 ETA: 0h22m28spsolve |=======                                                  | t: 267.25 ETA: 0h22m22spsolve |=======                                                  | t: 270.75 ETA: 0h22m21spsolve |=======                                                  | t: 274.25 ETA: 0h22m20spsolve |=======                                                  | t: 278.62 ETA: 0h22m14spsolve |========                                                 | t: 282.12 ETA: 0h22m13spsolve |========                                                 | t: 286.50 ETA: 0h22m07spsolve |========                                                 | t: 290.00 ETA: 0h22m06spsolve |========                                                 | t: 293.50 ETA: 0h22m05spsolve |========                                                 | t: 297.87 ETA: 0h21m59spsolve |========                                                 | t: 301.37 ETA: 0h21m58spsolve |========                                                 | t: 305.75 ETA: 0h21m53spsolve |========                                                 | t: 309.25 ETA: 0h21m52spsolve |========                                                 | t: 312.75 ETA: 0h21m50spsolve |=========                                                | t: 317.12 ETA: 0h21m45spsolve |=========                                                | t: 320.62 ETA: 0h21m44spsolve |=========                                                | t: 325.00 ETA: 0h21m38spsolve |=========                                                | t: 328.50 ETA: 0h21m37spsolve |=========                                                | t: 332.00 ETA: 0h21m36spsolve |=========                                                | t: 336.37 ETA: 0h21m30spsolve |=========                                                | t: 339.87 ETA: 0h21m29spsolve |=========                                                | t: 344.25 ETA: 0h21m24spsolve |=========                                                | t: 347.75 ETA: 0h21m22spsolve |==========                                               | t: 351.25 ETA: 0h21m21spsolve |==========                                               | t: 355.62 ETA: 0h21m16spsolve |==========                                               | t: 359.12 ETA: 0h21m14spsolve |==========                                               | t: 362.62 ETA: 0h21m13spsolve |==========                                               | t: 367.00 ETA: 0h21m08spsolve |==========                                               | t: 370.50 ETA: 0h21m06spsolve |==========                                               | t: 374.87 ETA: 0h21m01spsolve |==========                                               | t: 378.37 ETA: 0h21m00spsolve |==========                                               | t: 381.87 ETA: 0h20m58spsolve |===========                                              | t: 386.25 ETA: 0h20m53spsolve |===========                                              | t: 389.75 ETA: 0h20m51spsolve |===========                                              | t: 393.25 ETA: 0h20m50spsolve |===========                                              | t: 397.62 ETA: 0h20m45spsolve |===========                                              | t: 401.12 ETA: 0h20m43spsolve |===========                                              | t: 405.50 ETA: 0h20m38spsolve |===========                                              | t: 409.00 ETA: 0h20m37spsolve |===========                                              | t: 412.50 ETA: 0h20m35spsolve |===========                                              | t: 416.87 ETA: 0h20m30spsolve |===========                                              | t: 420.37 ETA: 0h20m28spsolve |============                                             | t: 423.87 ETA: 0h20m27spsolve |============                                             | t: 428.25 ETA: 0h20m22spsolve |============                                             | t: 431.75 ETA: 0h20m20spsolve |============                                             | t: 436.12 ETA: 0h20m15spsolve |============                                             | t: 439.62 ETA: 0h20m13spsolve |============                                             | t: 443.12 ETA: 0h20m12spsolve |============                                             | t: 447.50 ETA: 0h20m07spsolve |============                                             | t: 451.00 ETA: 0h20m05spsolve |============                                             | t: 454.50 ETA: 0h20m03spsolve |=============                                            | t: 458.87 ETA: 0h19m58spsolve |=============                                            | t: 462.37 ETA: 0h19m57spsolve |=============                                            | t: 465.87 ETA: 0h19m55spsolve |=============                                            | t: 470.25 ETA: 0h19m50spsolve |=============                                            | t: 473.75 ETA: 0h19m48spsolve |=============                                            | t: 478.12 ETA: 0h19m44spsolve |=============                                            | t: 481.62 ETA: 0h19m42spsolve |=============                                            | t: 485.12 ETA: 0h19m40spsolve |=============                                            | t: 489.50 ETA: 0h19m35spsolve |==============                                           | t: 493.00 ETA: 0h19m33spsolve |==============                                           | t: 496.50 ETA: 0h19m31spsolve |==============                                           | t: 500.87 ETA: 0h19m27spsolve |==============                                           | t: 504.37 ETA: 0h19m25spsolve |==============                                           | t: 507.87 ETA: 0h19m23spsolve |==============                                           | t: 512.25 ETA: 0h19m18spsolve |==============                                           | t: 515.75 ETA: 0h19m16spsolve |==============                                           | t: 520.12 ETA: 0h19m12spsolve |==============                                           | t: 523.62 ETA: 0h19m10spsolve |===============                                          | t: 527.12 ETA: 0h19m08spsolve |===============                                          | t: 531.50 ETA: 0h19m03spsolve |===============                                          | t: 535.00 ETA: 0h19m01spsolve |===============                                          | t: 538.50 ETA: 0h18m59spsolve |===============                                          | t: 542.87 ETA: 0h18m55spsolve |===============                                          | t: 546.37 ETA: 0h18m53spsolve |===============                                          | t: 549.87 ETA: 0h18m51spsolve |===============                                          | t: 554.25 ETA: 0h18m46spsolve |===============                                          | t: 557.75 ETA: 0h18m44spsolve |===============                                          | t: 561.25 ETA: 0h18m42spsolve |================                                         | t: 565.62 ETA: 0h18m38spsolve |================                                         | t: 569.12 ETA: 0h18m36spsolve |================                                         | t: 573.50 ETA: 0h18m31spsolve |================                                         | t: 577.00 ETA: 0h18m29spsolve |================                                         | t: 580.50 ETA: 0h18m27spsolve |================                                         | t: 584.87 ETA: 0h18m23spsolve |================                                         | t: 588.37 ETA: 0h18m21spsolve |================                                         | t: 591.87 ETA: 0h18m19spsolve |================                                         | t: 596.25 ETA: 0h18m14spsolve |=================                                        | t: 599.75 ETA: 0h18m12spsolve |=================                                        | t: 603.75 ETA: 0h18m09spsolve |=================                                        | t: 607.25 ETA: 0h18m07spsolve |=================                                        | t: 611.63 ETA: 0h18m02spsolve |=================                                        | t: 615.13 ETA: 0h18m00spsolve |=================                                        | t: 618.63 ETA: 0h17m58spsolve |=================                                        | t: 623.00 ETA: 0h17m54spsolve |=================                                        | t: 626.50 ETA: 0h17m52spsolve |=================                                        | t: 630.00 ETA: 0h17m49spsolve |==================                                       | t: 634.38 ETA: 0h17m45spsolve |==================                                       | t: 637.88 ETA: 0h17m43spsolve |==================                                       | t: 641.38 ETA: 0h17m41spsolve |==================                                       | t: 645.75 ETA: 0h17m36spsolve |==================                                       | t: 649.25 ETA: 0h17m34spsolve |==================                                       | t: 653.63 ETA: 0h17m30spsolve |==================                                       | t: 657.13 ETA: 0h17m28spsolve |==================                                       | t: 660.63 ETA: 0h17m26spsolve |==================                                       | t: 665.00 ETA: 0h17m21spsolve |===================                                      | t: 668.50 ETA: 0h17m19spsolve |===================                                      | t: 672.00 ETA: 0h17m17spsolve |===================                                      | t: 676.38 ETA: 0h17m13spsolve |===================                                      | t: 679.88 ETA: 0h17m11spsolve |===================                                      | t: 683.38 ETA: 0h17m08spsolve |===================                                      | t: 687.75 ETA: 0h17m04spsolve |===================                                      | t: 691.25 ETA: 0h17m02spsolve |===================                                      | t: 694.75 ETA: 0h17m00spsolve |===================                                      | t: 699.13 ETA: 0h16m55spsolve |====================                                     | t: 702.63 ETA: 0h16m53spsolve |====================                                     | t: 706.13 ETA: 0h16m51spsolve |====================                                     | t: 710.50 ETA: 0h16m47spsolve |====================                                     | t: 714.00 ETA: 0h16m45spsolve |====================                                     | t: 717.50 ETA: 0h16m42spsolve |====================                                     | t: 721.88 ETA: 0h16m38spsolve |====================                                     | t: 725.38 ETA: 0h16m36spsolve |====================                                     | t: 728.88 ETA: 0h16m34spsolve |====================                                     | t: 733.25 ETA: 0h16m29spsolve |====================                                     | t: 736.75 ETA: 0h16m27spsolve |=====================                                    | t: 740.25 ETA: 0h16m25spsolve |=====================                                    | t: 744.63 ETA: 0h16m21spsolve |=====================                                    | t: 748.13 ETA: 0h16m18spsolve |=====================                                    | t: 751.63 ETA: 0h16m16spsolve |=====================                                    | t: 756.00 ETA: 0h16m12spsolve |=====================                                    | t: 759.50 ETA: 0h16m10spsolve |=====================                                    | t: 763.00 ETA: 0h16m07spsolve |=====================                                    | t: 767.38 ETA: 0h16m03spsolve |=====================                                    | t: 770.88 ETA: 0h16m01spsolve |======================                                   | t: 774.38 ETA: 0h15m59spsolve |======================                                   | t: 778.75 ETA: 0h15m55spsolve |======================                                   | t: 782.25 ETA: 0h15m52spsolve |======================                                   | t: 785.75 ETA: 0h15m50spsolve |======================                                   | t: 790.13 ETA: 0h15m46spsolve |======================                                   | t: 793.63 ETA: 0h15m43spsolve |======================                                   | t: 797.13 ETA: 0h15m41spsolve |======================                                   | t: 801.50 ETA: 0h15m37spsolve |======================                                   | t: 805.00 ETA: 0h15m35spsolve |=======================                                  | t: 808.50 ETA: 0h15m32spsolve |=======================                                  | t: 812.88 ETA: 0h15m28spsolve |=======================                                  | t: 816.38 ETA: 0h15m26spsolve |=======================                                  | t: 819.88 ETA: 0h15m24spsolve |=======================                                  | t: 824.25 ETA: 0h15m20spsolve |=======================                                  | t: 827.75 ETA: 0h15m17spsolve |=======================                                  | t: 831.25 ETA: 0h15m15spsolve |=======================                                  | t: 835.63 ETA: 0h15m11spsolve |=======================                                  | t: 839.13 ETA: 0h15m08spsolve |========================                                 | t: 842.63 ETA: 0h15m06spsolve |========================                                 | t: 847.00 ETA: 0h15m02spsolve |========================                                 | t: 850.50 ETA: 0h15m00spsolve |========================                                 | t: 854.88 ETA: 0h14m56spsolve |========================                                 | t: 858.38 ETA: 0h14m53spsolve |========================                                 | t: 861.88 ETA: 0h14m51spsolve |========================                                 | t: 866.25 ETA: 0h14m47spsolve |========================                                 | t: 869.75 ETA: 0h14m44spsolve |========================                                 | t: 873.25 ETA: 0h14m42spsolve |=========================                                | t: 877.63 ETA: 0h14m38spsolve |=========================                                | t: 881.13 ETA: 0h14m36spsolve |=========================                                | t: 884.63 ETA: 0h14m33spsolve |=========================                                | t: 889.00 ETA: 0h14m29spsolve |=========================                                | t: 892.50 ETA: 0h14m27spsolve |=========================                                | t: 896.00 ETA: 0h14m24spsolve |=========================                                | t: 900.38 ETA: 0h14m21spsolve |=========================                                | t: 903.88 ETA: 0h14m18spsolve |=========================                                | t: 907.38 ETA: 0h14m16spsolve |=========================                                | t: 911.75 ETA: 0h14m12spsolve |==========================                               | t: 915.25 ETA: 0h14m09spsolve |==========================                               | t: 919.63 ETA: 0h14m05spsolve |==========================                               | t: 923.13 ETA: 0h14m03spsolve |==========================                               | t: 926.63 ETA: 0h14m00spsolve |==========================                               | t: 931.00 ETA: 0h13m57spsolve |==========================                               | t: 934.50 ETA: 0h13m54spsolve |==========================                               | t: 938.00 ETA: 0h13m52spsolve |==========================                               | t: 942.38 ETA: 0h13m48spsolve |==========================                               | t: 945.88 ETA: 0h13m45spsolve |===========================                              | t: 949.38 ETA: 0h13m43spsolve |===========================                              | t: 953.75 ETA: 0h13m39spsolve |===========================                              | t: 957.25 ETA: 0h13m36spsolve |===========================                              | t: 960.75 ETA: 0h13m34spsolve |===========================                              | t: 965.13 ETA: 0h13m30spsolve |===========================                              | t: 968.63 ETA: 0h13m28spsolve |===========================                              | t: 972.13 ETA: 0h13m25spsolve |===========================                              | t: 976.50 ETA: 0h13m21spsolve |===========================                              | t: 980.00 ETA: 0h13m19spsolve |============================                             | t: 984.38 ETA: 0h13m15spsolve |============================                             | t: 987.88 ETA: 0h13m12spsolve |============================                             | t: 991.38 ETA: 0h13m10spsolve |============================                             | t: 995.75 ETA: 0h13m06spsolve |============================                             | t: 999.25 ETA: 0h13m04spsolve |============================                             | t: 1002.75 ETA: 0h13m01spsolve |============================                             | t: 1007.13 ETA: 0h12m57spsolve |============================                             | t: 1010.63 ETA: 0h12m55spsolve |============================                             | t: 1014.13 ETA: 0h12m52spsolve |=============================                            | t: 1018.50 ETA: 0h12m49spsolve |=============================                            | t: 1022.00 ETA: 0h12m46spsolve |=============================                            | t: 1025.50 ETA: 0h12m44spsolve |=============================                            | t: 1029.88 ETA: 0h12m40spsolve |=============================                            | t: 1033.38 ETA: 0h12m37spsolve |=============================                            | t: 1036.88 ETA: 0h12m35spsolve |=============================                            | t: 1041.25 ETA: 0h12m31spsolve |=============================                            | t: 1044.75 ETA: 0h12m28spsolve |=============================                            | t: 1049.13 ETA: 0h12m25spsolve |=============================                            | t: 1052.63 ETA: 0h12m22spsolve |==============================                           | t: 1056.13 ETA: 0h12m19spsolve |==============================                           | t: 1060.50 ETA: 0h12m16spsolve |==============================                           | t: 1064.00 ETA: 0h12m13spsolve |==============================                           | t: 1067.50 ETA: 0h12m11spsolve |==============================                           | t: 1071.88 ETA: 0h12m07spsolve |==============================                           | t: 1075.38 ETA: 0h12m04spsolve |==============================                           | t: 1078.88 ETA: 0h12m02spsolve |==============================                           | t: 1083.25 ETA: 0h11m58spsolve |==============================                           | t: 1086.75 ETA: 0h11m55spsolve |===============================                          | t: 1090.25 ETA: 0h11m53spsolve |===============================                          | t: 1094.63 ETA: 0h11m49spsolve |===============================                          | t: 1098.13 ETA: 0h11m47spsolve |===============================                          | t: 1102.50 ETA: 0h11m43spsolve |===============================                          | t: 1106.00 ETA: 0h11m40spsolve |===============================                          | t: 1109.50 ETA: 0h11m38spsolve |===============================                          | t: 1113.88 ETA: 0h11m34spsolve |===============================                          | t: 1117.38 ETA: 0h11m31spsolve |===============================                          | t: 1120.88 ETA: 0h11m29spsolve |================================                         | t: 1125.25 ETA: 0h11m25spsolve |================================                         | t: 1128.75 ETA: 0h11m23spsolve |================================                         | t: 1132.25 ETA: 0h11m20spsolve |================================                         | t: 1136.63 ETA: 0h11m16spsolve |================================                         | t: 1140.13 ETA: 0h11m14spsolve |================================                         | t: 1143.63 ETA: 0h11m11spsolve |================================                         | t: 1148.00 ETA: 0h11m07spsolve |================================                         | t: 1151.50 ETA: 0h11m05spsolve |================================                         | t: 1155.00 ETA: 0h11m02spsolve |=================================                        | t: 1159.38 ETA: 0h10m59spsolve |=================================                        | t: 1162.88 ETA: 0h10m56spsolve |=================================                        | t: 1166.38 ETA: 0h10m53spsolve |=================================                        | t: 1170.75 ETA: 0h10m50spsolve |=================================                        | t: 1174.25 ETA: 0h10m47spsolve |=================================                        | t: 1177.75 ETA: 0h10m45spsolve |=================================                        | t: 1182.13 ETA: 0h10m41spsolve |=================================                        | t: 1185.63 ETA: 0h10m38spsolve |=================================                        | t: 1189.13 ETA: 0h10m36spsolve |==================================                       | t: 1193.50 ETA: 0h10m32spsolve |==================================                       | t: 1197.00 ETA: 0h10m29spsolve |==================================                       | t: 1200.50 ETA: 0h10m27spsolve |==================================                       | t: 1204.88 ETA: 0h10m23spsolve |==================================                       | t: 1208.38 ETA: 0h10m21spsolve |==================================                       | t: 1211.88 ETA: 0h10m18spsolve |==================================                       | t: 1216.25 ETA: 0h10m14spsolve |==================================                       | t: 1219.75 ETA: 0h10m12spsolve |==================================                       | t: 1224.13 ETA: 0h10m08spsolve |==================================                       | t: 1227.63 ETA: 0h10m05spsolve |===================================                      | t: 1231.13 ETA: 0h10m03spsolve |===================================                      | t: 1235.50 ETA: 0h09m59spsolve |===================================                      | t: 1239.00 ETA: 0h09m57spsolve |===================================                      | t: 1242.50 ETA: 0h09m54spsolve |===================================                      | t: 1246.88 ETA: 0h09m50spsolve |===================================                      | t: 1250.38 ETA: 0h09m48spsolve |===================================                      | t: 1253.88 ETA: 0h09m45spsolve |===================================                      | t: 1258.25 ETA: 0h09m41spsolve |===================================                      | t: 1261.75 ETA: 0h09m39spsolve |====================================                     | t: 1265.25 ETA: 0h09m36spsolve |====================================                     | t: 1269.63 ETA: 0h09m32spsolve |====================================                     | t: 1273.13 ETA: 0h09m30spsolve |====================================                     | t: 1276.63 ETA: 0h09m27spsolve |====================================                     | t: 1281.00 ETA: 0h09m24spsolve |====================================                     | t: 1284.50 ETA: 0h09m21spsolve |====================================                     | t: 1288.00 ETA: 0h09m18spsolve |====================================                     | t: 1292.38 ETA: 0h09m15spsolve |====================================                     | t: 1295.88 ETA: 0h09m12spsolve |=====================================                    | t: 1299.38 ETA: 0h09m09spsolve |=====================================                    | t: 1303.75 ETA: 0h09m06spsolve |=====================================                    | t: 1307.25 ETA: 0h09m03spsolve |=====================================                    | t: 1311.63 ETA: 0h09m00spsolve |=====================================                    | t: 1315.13 ETA: 0h08m57spsolve |=====================================                    | t: 1318.63 ETA: 0h08m54spsolve |=====================================                    | t: 1322.13 ETA: 0h08m52spsolve |=====================================                    | t: 1326.50 ETA: 0h08m48spsolve |=====================================                    | t: 1330.00 ETA: 0h08m45spsolve |======================================                   | t: 1334.38 ETA: 0h08m42spsolve |======================================                   | t: 1337.88 ETA: 0h08m39spsolve |======================================                   | t: 1341.38 ETA: 0h08m37spsolve |======================================                   | t: 1345.75 ETA: 0h08m33spsolve |======================================                   | t: 1349.25 ETA: 0h08m30spsolve |======================================                   | t: 1352.75 ETA: 0h08m28spsolve |======================================                   | t: 1356.25 ETA: 0h08m25spsolve |======================================                   | t: 1360.63 ETA: 0h08m21spsolve |======================================                   | t: 1364.13 ETA: 0h08m19spsolve |=======================================                  | t: 1368.50 ETA: 0h08m15spsolve |=======================================                  | t: 1372.00 ETA: 0h08m12spsolve |=======================================                  | t: 1375.50 ETA: 0h08m10spsolve |=======================================                  | t: 1379.00 ETA: 0h08m07spsolve |=======================================                  | t: 1383.38 ETA: 0h08m04spsolve |=======================================                  | t: 1386.88 ETA: 0h08m01spsolve |=======================================                  | t: 1390.38 ETA: 0h07m58spsolve |=======================================                  | t: 1394.75 ETA: 0h07m55spsolve |=======================================                  | t: 1398.25 ETA: 0h07m52spsolve |=======================================                  | t: 1402.63 ETA: 0h07m48spsolve |========================================                 | t: 1406.13 ETA: 0h07m46spsolve |========================================                 | t: 1409.63 ETA: 0h07m43spsolve |========================================                 | t: 1414.00 ETA: 0h07m40spsolve |========================================                 | t: 1417.50 ETA: 0h07m37spsolve |========================================                 | t: 1421.00 ETA: 0h07m34spsolve |========================================                 | t: 1425.38 ETA: 0h07m31spsolve |========================================                 | t: 1428.88 ETA: 0h07m28spsolve |========================================                 | t: 1432.38 ETA: 0h07m25spsolve |========================================                 | t: 1436.75 ETA: 0h07m22spsolve |=========================================                | t: 1440.25 ETA: 0h07m19spsolve |=========================================                | t: 1444.63 ETA: 0h07m15spsolve |=========================================                | t: 1448.13 ETA: 0h07m13spsolve |=========================================                | t: 1451.63 ETA: 0h07m10spsolve |=========================================                | t: 1456.00 ETA: 0h07m07spsolve |=========================================                | t: 1459.50 ETA: 0h07m04spsolve |=========================================                | t: 1463.00 ETA: 0h07m01spsolve |=========================================                | t: 1467.38 ETA: 0h06m58spsolve |=========================================                | t: 1470.88 ETA: 0h06m55spsolve |==========================================               | t: 1474.38 ETA: 0h06m52spsolve |==========================================               | t: 1479.63 ETA: 0h06m48spsolve |==========================================               | t: 1484.88 ETA: 0h06m44spsolve |==========================================               | t: 1490.13 ETA: 0h06m40spsolve |==========================================               | t: 1495.38 ETA: 0h06m36spsolve |==========================================               | t: 1499.75 ETA: 0h06m32spsolve |==========================================               | t: 1505.00 ETA: 0h06m28spsolve |===========================================              | t: 1510.25 ETA: 0h06m24spsolve |===========================================              | t: 1515.50 ETA: 0h06m20spsolve |===========================================              | t: 1520.75 ETA: 0h06m16spsolve |===========================================              | t: 1526.00 ETA: 0h06m12spsolve |===========================================              | t: 1530.38 ETA: 0h06m08spsolve |===========================================              | t: 1535.63 ETA: 0h06m04spsolve |===========================================              | t: 1540.88 ETA: 0h06m00spsolve |============================================             | t: 1545.25 ETA: 0h05m57spsolve |============================================             | t: 1550.50 ETA: 0h05m53spsolve |============================================             | t: 1555.75 ETA: 0h05m48spsolve |============================================             | t: 1561.00 ETA: 0h05m44spsolve |============================================             | t: 1566.25 ETA: 0h05m40spsolve |============================================             | t: 1570.63 ETA: 0h05m37spsolve |============================================             | t: 1575.88 ETA: 0h05m33spsolve |=============================================            | t: 1581.13 ETA: 0h05m29spsolve |=============================================            | t: 1586.38 ETA: 0h05m24spsolve |=============================================            | t: 1591.63 ETA: 0h05m20spsolve |=============================================            | t: 1596.00 ETA: 0h05m17spsolve |=============================================            | t: 1601.25 ETA: 0h05m13spsolve |=============================================            | t: 1606.50 ETA: 0h05m09spsolve |=============================================            | t: 1611.75 ETA: 0h05m04spsolve |==============================================           | t: 1617.00 ETA: 0h05m00spsolve |==============================================           | t: 1621.38 ETA: 0h04m57spsolve |==============================================           | t: 1626.63 ETA: 0h04m53spsolve |==============================================           | t: 1631.88 ETA: 0h04m49spsolve |==============================================           | t: 1637.13 ETA: 0h04m45spsolve |==============================================           | t: 1642.38 ETA: 0h04m40spsolve |==============================================           | t: 1646.75 ETA: 0h04m37spsolve |===============================================          | t: 1652.00 ETA: 0h04m33spsolve |===============================================          | t: 1657.25 ETA: 0h04m29spsolve |===============================================          | t: 1662.50 ETA: 0h04m25spsolve |===============================================          | t: 1667.75 ETA: 0h04m20spsolve |===============================================          | t: 1672.13 ETA: 0h04m17spsolve |===============================================          | t: 1677.38 ETA: 0h04m13spsolve |===============================================          | t: 1682.63 ETA: 0h04m09spsolve |================================================         | t: 1687.88 ETA: 0h04m05spsolve |================================================         | t: 1693.13 ETA: 0h04m01spsolve |================================================         | t: 1697.50 ETA: 0h03m57spsolve |================================================         | t: 1702.75 ETA: 0h03m53spsolve |================================================         | t: 1708.00 ETA: 0h03m49spsolve |================================================         | t: 1713.25 ETA: 0h03m45spsolve |================================================         | t: 1717.63 ETA: 0h03m41spsolve |=================================================        | t: 1722.88 ETA: 0h03m37spsolve |=================================================        | t: 1728.13 ETA: 0h03m33spsolve |=================================================        | t: 1733.38 ETA: 0h03m29spsolve |=================================================        | t: 1738.63 ETA: 0h03m25spsolve |=================================================        | t: 1743.00 ETA: 0h03m22spsolve |=================================================        | t: 1748.25 ETA: 0h03m17spsolve |=================================================        | t: 1753.50 ETA: 0h03m13spsolve |==================================================       | t: 1758.75 ETA: 0h03m09spsolve |==================================================       | t: 1764.00 ETA: 0h03m05spsolve |==================================================       | t: 1768.38 ETA: 0h03m02spsolve |==================================================       | t: 1773.63 ETA: 0h02m57spsolve |==================================================       | t: 1778.88 ETA: 0h02m53spsolve |==================================================       | t: 1784.13 ETA: 0h02m49spsolve |==================================================       | t: 1788.50 ETA: 0h02m46spsolve |===================================================      | t: 1793.75 ETA: 0h02m42spsolve |===================================================      | t: 1799.00 ETA: 0h02m37spsolve |===================================================      | t: 1804.25 ETA: 0h02m33spsolve |===================================================      | t: 1808.63 ETA: 0h02m30spsolve |===================================================      | t: 1813.88 ETA: 0h02m26spsolve |===================================================      | t: 1819.13 ETA: 0h02m22spsolve |===================================================      | t: 1824.38 ETA: 0h02m18spsolve |====================================================     | t: 1828.75 ETA: 0h02m14spsolve |====================================================     | t: 1834.00 ETA: 0h02m10spsolve |====================================================     | t: 1839.25 ETA: 0h02m06spsolve |====================================================     | t: 1844.50 ETA: 0h02m02spsolve |====================================================     | t: 1849.75 ETA: 0h01m58spsolve |====================================================     | t: 1855.00 ETA: 0h01m53spsolve |====================================================     | t: 1859.38 ETA: 0h01m50spsolve |=====================================================    | t: 1864.63 ETA: 0h01m46spsolve |=====================================================    | t: 1869.88 ETA: 0h01m42spsolve |=====================================================    | t: 1875.13 ETA: 0h01m38spsolve |=====================================================    | t: 1879.50 ETA: 0h01m34spsolve |=====================================================    | t: 1884.75 ETA: 0h01m30spsolve |=====================================================    | t: 1890.00 ETA: 0h01m26spsolve |======================================================   | t: 1895.25 ETA: 0h01m22spsolve |======================================================   | t: 1900.50 ETA: 0h01m18spsolve |======================================================   | t: 1904.88 ETA: 0h01m14spsolve |======================================================   | t: 1910.13 ETA: 0h01m10spsolve |======================================================   | t: 1915.38 ETA: 0h01m06spsolve |======================================================   | t: 1920.63 ETA: 0h01m02spsolve |======================================================   | t: 1925.88 ETA: 0h00m58spsolve |=======================================================  | t: 1930.25 ETA: 0h00m54spsolve |=======================================================  | t: 1935.50 ETA: 0h00m50spsolve |=======================================================  | t: 1940.75 ETA: 0h00m46spsolve |=======================================================  | t: 1946.00 ETA: 0h00m42spsolve |=======================================================  | t: 1951.25 ETA: 0h00m38spsolve |=======================================================  | t: 1955.63 ETA: 0h00m34spsolve |=======================================================  | t: 1960.88 ETA: 0h00m30spsolve |======================================================== | t: 1966.13 ETA: 0h00m26spsolve |======================================================== | t: 1971.38 ETA: 0h00m22spsolve |======================================================== | t: 1975.75 ETA: 0h00m19spsolve |======================================================== | t: 1981.00 ETA: 0h00m14spsolve |======================================================== | t: 1986.25 ETA: 0h00m10spsolve |======================================================== | t: 1992.38 ETA: 0h00m05spsolve |======================================================== | t: 1999.38 ETA: 0h00m00spsolve |=========================================================| t: 2000.00 ETA: 0h26m13s
+
+Solver Time : 1573.16
+
+
+ Simulation Statistics
+ Number of cells: 314000
+ Number of compartments: 942000
+ Number of presyns: 399600
+ Number of input presyns: 616000
+ Number of synapses: 990960
+ Number of point processes: 399600
+ Number of transfer sources: 0
+ Number of transfer targets: 0
+ Number of spikes: 858564
+ Number of spikes with non negative gid-s: 858564
+[Rank1 : Timing] Saving the spikes  @ +1692.249 sec
+
+[Rank11 : Timing] Saving the spikes  @ +1692.265 sec
+
+[Rank2 : Timing] Saving the spikes  @ +1692.258 sec
+
+[Rank3 : Timing] Saving the spikes  @ +1692.263 sec
+
+[Rank14 : Timing] Saving the spikes  @ +1692.249 sec
+
+[Rank8 : Timing] Saving the spikes  @ +1692.265 sec
+
+[Rank12 : Timing] Saving the spikes  @ +1692.265 sec
+
+[Rank4 : Timing] Saving the spikes  @ +1692.264 sec
+
+[Rank6 : Timing] Saving the spikes  @ +1692.247 sec
+
+[Rank7 : Timing] Saving the spikes  @ +1692.254 sec
+
+[Rank13 : Timing] Saving the spikes  @ +1692.258 sec
+
+[Rank5 : Timing] Saving the spikes  @ +1692.265 sec
+
+[Rank9 : Timing] Saving the spikes  @ +1692.264 sec
+
+[Rank10 : Timing] Saving the spikes  @ +1692.258 sec
+
+[Rank0 : Timing] Saving the spikes  @ +1692.264 sec
+
+[Rank0 : Timing] Merging spikes from all the rank @ +1692.346 sec
+
+
+--- Timing Summary for Rank 1 ---
+[Rank1 : Timing] START -->  GID assignment: 0.156 sec
+[Rank1 : Timing] GID assignment -->  Synapse data per rank: 0.683 sec
+[Rank1 : Timing] Synapse data per rank -->  Creating cells : 0.175 sec
+[Rank1 : Timing] Creating cells  -->  Establish synaptic links: 115.713 sec
+[Rank1 : Timing] Establish synaptic links -->  Solving Equations: 1.743 sec
+[Rank1 : Timing] Solving Equations -->  Saving the spikes : 1573.767 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 11 ---
+[Rank11 : Timing] START -->  GID assignment: 0.156 sec
+[Rank11 : Timing] GID assignment -->  Synapse data per rank: 0.515 sec
+[Rank11 : Timing] Synapse data per rank -->  Creating cells : 0.199 sec
+[Rank11 : Timing] Creating cells  -->  Establish synaptic links: 115.857 sec
+[Rank11 : Timing] Establish synaptic links -->  Solving Equations: 1.027 sec
+
+--- Timing Summary for Rank 2 ---
+[Rank2 : Timing] START -->  GID assignment: 0.156 sec
+[Rank2 : Timing] GID assignment -->  Synapse data per rank: 0.516 sec
+[Rank2 : Timing] Synapse data per rank -->  Creating cells : 0.169 sec
+[Rank2 : Timing] Creating cells  -->  Establish synaptic links: 115.887 sec
+[Rank2 : Timing] Establish synaptic links -->  Solving Equations: 1.009 sec
+[Rank2 : Timing] Solving Equations -->  Saving the spikes : 1574.501 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 3 ---
+[Rank3 : Timing] START -->  GID assignment: 0.156 sec
+[Rank3 : Timing] GID assignment -->  Synapse data per rank: 0.644 sec
+[Rank3 : Timing] Synapse data per rank -->  Creating cells : 0.153 sec
+[Rank3 : Timing] Creating cells  -->  Establish synaptic links: 115.775 sec
+[Rank3 : Timing] Establish synaptic links -->  Solving Equations: 1.030 sec
+[Rank3 : Timing] Solving Equations -->  Saving the spikes : 1574.480 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 14 ---
+[Rank14 : Timing] START -->  GID assignment: 0.156 sec
+[Rank14 : Timing] GID assignment -->  Synapse data per rank: 0.524 sec
+[Rank14 : Timing] Synapse data per rank -->  Creating cells : 0.191 sec
+[Rank14 : Timing] Creating cells  -->  Establish synaptic links: 115.857 sec
+[Rank14 : Timing] Establish synaptic links -->  Solving Equations: 1.022 sec
+[Rank14 : Timing] Solving Equations -->  Saving the spikes : 1574.488 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 8 ---
+[Rank8 : Timing] START -->  GID assignment: 0.156 sec
+[Rank8 : Timing] GID assignment -->  Synapse data per rank: 0.516 sec
+[Rank8 : Timing] Synapse data per rank -->  Creating cells : 0.190 sec
+[Rank8 : Timing] Creating cells  -->  Establish synaptic links: 115.865 sec
+[Rank8 : Timing] Establish synaptic links -->  Solving Equations: 1.020 sec
+[Rank8 : Timing] Solving Equations -->  Saving the spikes : 1574.490 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 12 ---
+[Rank12 : Timing] START -->  GID assignment: 0.156 sec
+[Rank12 : Timing] GID assignment -->  Synapse data per rank: 0.516 sec
+[Rank12 : Timing] Synapse data per rank -->  Creating cells : 0.208 sec
+[Rank12 : Timing] Creating cells  -->  Establish synaptic links: 115.847 sec
+[Rank12 : Timing] Establish synaptic links -->  Solving Equations: 1.016 sec
+[Rank12 : Timing] Solving Equations -->  Saving the spikes : 1574.494 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 4 ---
+[Rank4 : Timing] START -->  GID assignment: 0.156 sec
+[Rank4 : Timing] GID assignment -->  Synapse data per rank: 0.663 sec
+[Rank4 : Timing] Synapse data per rank -->  Creating cells : 0.176 sec
+[Rank4 : Timing] Creating cells  -->  Establish synaptic links: 115.732 sec
+[Rank4 : Timing] Establish synaptic links -->  Solving Equations: 1.824 sec
+[Rank4 : Timing] Solving Equations -->  Saving the spikes : 1573.686 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 6 ---
+[Rank6 : Timing] START -->  GID assignment: 0.156 sec
+[Rank6 : Timing] GID assignment -->  Synapse data per rank: 0.677 sec
+[Rank6 : Timing] Synapse data per rank -->  Creating cells : 0.189 sec
+[Rank6 : Timing] Creating cells  -->  Establish synaptic links: 115.706 sec
+[Rank6 : Timing] Establish synaptic links -->  Solving Equations: 1.762 sec
+[Rank6 : Timing] Solving Equations -->  Saving the spikes : 1573.748 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 7 ---
+[Rank7 : Timing] START -->  GID assignment: 0.156 sec
+[Rank7 : Timing] GID assignment -->  Synapse data per rank: 0.516 sec
+[Rank7 : Timing] Synapse data per rank -->  Creating cells : 0.199 sec
+[Rank7 : Timing] Creating cells  -->  Establish synaptic links: 115.857 sec
+[Rank7 : Timing] Establish synaptic links -->  Solving Equations: 1.024 sec
+[Rank7 : Timing] Solving Equations -->  Saving the spikes : 1574.486 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 13 ---
+[Rank13 : Timing] START -->  GID assignment: 0.156 sec
+[Rank13 : Timing] GID assignment -->  Synapse data per rank: 0.515 sec
+[Rank13 : Timing] Synapse data per rank -->  Creating cells : 0.154 sec
+[Rank13 : Timing] Creating cells  -->  Establish synaptic links: 115.903 sec
+[Rank13 : Timing] Establish synaptic links -->  Solving Equations: 1.034 sec
+[Rank13 : Timing] Solving Equations -->  Saving the spikes : 1574.476 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 5 ---
+[Rank5 : Timing] START -->  GID assignment: 0.156 sec
+[Rank5 : Timing] GID assignment -->  Synapse data per rank: 0.658 sec
+[Rank5 : Timing] Synapse data per rank -->  Creating cells : 0.172 sec
+[Rank5 : Timing] Creating cells  -->  Establish synaptic links: 115.742 sec
+[Rank5 : Timing] Establish synaptic links -->  Solving Equations: 1.823 sec
+[Rank5 : Timing] Solving Equations -->  Saving the spikes : 1573.687 sec
+--------------------------------------
+
+
+--- Timing Summary for Rank 9 ---
+[Rank9 : Timing] START -->  GID assignment: 0.156 sec
+[Rank9 : Timing] GID assignment -->  Synapse data per rank: 0.691 sec
+[Rank9 : Timing] Synapse data per rank -->  Creating cells : 0.171 sec
+[Rank9 : Timing] Creating cells  -->  Establish synaptic links: 115.709 sec
+[Rank9 : Timing] Establish synaptic links -->  Solving Equations: 1.823 sec
+[Rank9 : Timing] Solving Equations -->  Saving the spikes : 1573.687 sec
+--------------------------------------
+
+[Rank 0] Merged spikes into ../results/all_spikes.csv and deleted per-rank files.
+[Rank 0] No. of mf: 5760; No. of grc: 20880
+
+--- Timing Summary for Rank 0 ---
+[Rank0 : Timing] START -->  Update worker table: 0.000 sec
+[Rank0 : Timing] Update worker table -->  GID assignment: 0.156 sec
+[Rank0 : Timing] GID assignment -->  Synapse data per rank: 0.658 sec
+[Rank0 : Timing] Synapse data per rank -->  Creating cells : 0.176 sec
+[Rank0 : Timing] Creating cells  -->  Establish synaptic links: 115.738 sec
+[Rank0 : Timing] Establish synaptic links -->  Solving Equations: 1.285 sec
+[Rank0 : Timing] Solving Equations -->  Saving the spikes : 1574.225 sec
+[Rank0 : Timing] Saving the spikes  -->  Merging spikes from all the rank: 0.082 sec
+--------------------------------------
+
+--- Timing Summary for Rank 10 ---
+[Rank10 : Timing] START -->  GID assignment: 0.156 sec
+[Rank10 : Timing] GID assignment -->  Synapse data per rank: 0.515 sec
+[Rank10 : Timing] Synapse data per rank -->  Creating cells : 0.209 sec
+[Rank10 : Timing] Creating cells  -->  Establish synaptic links: 115.847 sec
+[Rank10 : Timing] Establish synaptic links -->  Solving Equations: 1.833 sec
+[Rank10 : Timing] Solving Equations -->  Saving the spikes : 1573.677 sec
+--------------------------------------
+
+
+[Rank11 : Timing] Solving Equations -->  Saving the spikes : 1574.483 sec
+--------------------------------------
+

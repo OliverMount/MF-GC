@@ -1,0 +1,10 @@
+Authorization required, but no authorization protocol specified
+
+rm: cannot remove '../run_databases/rank*': No such file or directory
+ 
+ Duke, Yale, and the BlueBrain Project -- Copyright 1984-2020
+ Version : 9.0.0a0.post1449 3c8d43042 (2025-07-01 06:07:22 -0400)
+ 
+ Additional mechanisms from files
+ GRANULE_CA.mod GRANULE_CALC.mod GRANULE_KA.mod GRANULE_KCA.mod GRANULE_KIR.mod GRANULE_KM.mod GRANULE_KV.mod GRANULE_LKG1.mod GRANULE_LKG2.mod GRANULE_NA.mod GRANULE_NAR.mod GRANULE_Nmda_leak.mod GRANULE_Nmda_leak_linear.mod GRANULE_PNA.mod GRANULE_tonicGABA.mod exp2syn.mod expsyn.mod hh.mod netstim.mod passive.mod pattern.mod stim.mod svclmp.mod vecstim.mod
+

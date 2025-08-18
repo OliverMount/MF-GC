@@ -1,0 +1,28 @@
+numprocs=2
+[Rank1] : db_file_used ../connectivity/mf_grc_scaled_280.db
+[Rank0] : db_file_used ../connectivity/mf_grc_scaled_280.db
+[Rank1 : Timing] START @ +0.022 sec
+
+[Rank0 : Timing] START @ +0.022 sec
+
+[Rank0 : Timing] Update worker table @ +0.022 sec
+
+++ Clearing worker table at rank 0 for every new run
+++ [Rank0] : Creating extra synapse table headers for ==> Rank0
+++ [Rank0] : Creating extra synapse table headers for ==> Rank1
+[Rank1 : Timing] GID assignment @ +0.082 sec
+
+[Rank0 : Timing] GID assignment @ +0.082 sec
+
+[rank1] : No. of cells assigned ==> 699300
+[rank0] : No. of cells assigned ==> 699300
+[Rank1 : Timing] Synapse data per rank @ +3.036 sec
+
+++ [Rank1] : DB path is ../connectivity/synapse_rank1.db
+[Rank0 : Timing] Synapse data per rank @ +3.088 sec
+
+++ [Rank0] : DB path is ../connectivity/synapse_rank0.db
+[Rank1 : Timing] Creating cells  @ +5.128 sec
+
+[Rank0 : Timing] Creating cells  @ +5.137 sec
+

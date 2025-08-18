@@ -1,0 +1,116 @@
+numprocs=1
+[Rank0] : db_file_used ../connectivity/mf_grc_scaled_280.db
+[Rank0 : Timing] START @ +0.020 sec
+
+[Rank0 : Timing] Update worker table @ +0.020 sec
+
+++ Clearing worker table at rank 0 for every new run
+++ [Rank0] : No extra synapse database as nhost is 1
+[Rank0 : Timing] GID assignment @ +0.051 sec
+
+[rank0] : No. of cells assigned ==> 1398600
+++ Only one rank. Thus reading from orignal file
+[Rank0 : Timing] Creating cells  @ +1.673 sec
+
+[Rank0 : Timing] Establish synaptic links @ +331.678 sec
+
+[Rank0 : Timing] Solving Equations @ +361.318 sec
+
+ num_mpi=1
+
+ Info : 2 GPUs shared by 1 ranks per node
+ Memory (MBs) :             After mk_mech : Max 18987.9688, Min 18987.9688, Avg 18987.9688 
+ GPU Memory (MiBs) : Used = 482.125000, Free = 11559.812500, Total = 12041.937500
+ Memory (MBs) :            After MPI_Init : Max 18987.9688, Min 18987.9688, Avg 18987.9688 
+ GPU Memory (MiBs) : Used = 482.125000, Free = 11559.812500, Total = 12041.937500
+ Memory (MBs) :          Before nrn_setup : Max 18987.9688, Min 18987.9688, Avg 18987.9688 
+ GPU Memory (MiBs) : Used = 482.125000, Free = 11559.812500, Total = 12041.937500
+ Setup Done   : 9.43 seconds 
+ Model size   : 3.60 GB
+ Memory (MBs) :          After nrn_setup  : Max 23397.2461, Min 23397.2461, Avg 23397.2461 
+ GPU Memory (MiBs) : Used = 482.125000, Free = 11559.812500, Total = 12041.937500
+GENERAL PARAMETERS
+--mpi=true
+--mpi-lib=
+--gpu=true
+--dt=0.025
+--tstop=1000
+
+GPU
+--nwarp=65536
+--cell-permute=1
+--cuda-interface=false
+
+INPUT PARAMETERS
+--voltage=1000
+--seed=-1
+--datpath=.
+--filesdat=./files.dat
+--pattern=
+--report-conf=
+--restore=     
+
+PARALLEL COMPUTATION PARAMETERS
+--threading=false
+--skip_mpi_finalize=true
+
+SPIKE EXCHANGE
+--ms_phases=2
+--ms_subintervals=2
+--multisend=false
+--spk_compress=0
+--binqueue=false
+
+CONFIGURATION
+--spikebuf=100000
+--prcellgid=-1
+--forwardskip=0
+--celsius=34
+--mindelay=10
+--report-buffer-size=4
+
+OUTPUT PARAMETERS
+--dt_io=0.1
+--outpath=.
+--checkpoint=
+
+ Start time (t) = 0
+
+ Memory (MBs) :  After mk_spikevec_buffer : Max 23397.2461, Min 23397.2461, Avg 23397.2461 
+ GPU Memory (MiBs) : Used = 482.125000, Free = 11559.812500, Total = 12041.937500
+ Memory (MBs) :     After nrn_finitialize : Max 23400.4961, Min 23400.4961, Avg 23400.4961 
+ GPU Memory (MiBs) : Used = 4010.125000, Free = 8031.812500, Total = 12041.937500
+
+psolve |                                                         | t: 0.00   ETA: 0h00m00spsolve |                                                         | t: 10.00  ETA: 0h08m15spsolve |==                                                       | t: 49.88  ETA: 0h07m37spsolve |=====                                                    | t: 99.75  ETA: 0h07m13spsolve |========                                                 | t: 149.63 ETA: 0h06m43spsolve |=========                                                | t: 159.62 ETA: 0h06m40spsolve |===========                                              | t: 209.50 ETA: 0h06m17spsolve |==============                                           | t: 259.37 ETA: 0h05m54spsolve |=================                                        | t: 309.25 ETA: 0h05m30spsolve |====================                                     | t: 359.12 ETA: 0h05m05spsolve |=======================                                  | t: 409.00 ETA: 0h04m41spsolve |==========================                               | t: 458.87 ETA: 0h04m18spsolve |============================                             | t: 508.75 ETA: 0h03m54spsolve |===============================                          | t: 558.62 ETA: 0h03m30spsolve |====================================                     | t: 648.38 ETA: 0h02m47spsolve |=======================================                  | t: 698.25 ETA: 0h02m23spsolve |==========================================               | t: 748.13 ETA: 0h02m00spsolve |=============================================            | t: 798.00 ETA: 0h01m36spsolve |================================================         | t: 847.88 ETA: 0h01m12spsolve |===================================================      | t: 897.75 ETA: 0h00m48spsolve |======================================================   | t: 947.63 ETA: 0h00m24spsolve |======================================================== | t: 997.50 ETA: 0h00m01spsolve |=========================================================| t: 1000.00 ETA: 0h07m57spsolve |=========================================================| t: 1000.00 ETA: 0h07m57s
+
+Solver Time : 476.612
+
+
+ Simulation Statistics
+ Number of cells: 1099000
+ Number of compartments: 3297000
+ Number of presyns: 1398600
+ Number of input presyns: 0
+ Number of synapses: 3468360
+ Number of point processes: 1398600
+ Number of transfer sources: 0
+ Number of transfer targets: 0
+ Number of spikes: 1502500
+ Number of spikes with non negative gid-s: 1502500
+[Rank0 : Timing] Saving the spikes  @ +855.282 sec
+
+[Rank0 : Timing] Merging spikes from all the rank @ +856.023 sec
+
+[Rank 0] Merged spikes into ../results/all_spikes.csv and deleted per-rank files.
+[Rank 0] No. of mf: 299600; No. of grc: 1099000
+
+--- Timing Summary for Rank 0 ---
+[Rank0 : Timing] START -->  Update worker table: 0.000 sec
+[Rank0 : Timing] Update worker table -->  GID assignment: 0.031 sec
+[Rank0 : Timing] GID assignment -->  Creating cells : 1.622 sec
+[Rank0 : Timing] Creating cells  -->  Establish synaptic links: 330.005 sec
+[Rank0 : Timing] Establish synaptic links -->  Solving Equations: 29.640 sec
+[Rank0 : Timing] Solving Equations -->  Saving the spikes : 493.963 sec
+[Rank0 : Timing] Saving the spikes  -->  Merging spikes from all the rank: 0.742 sec
+--------------------------------------
+
