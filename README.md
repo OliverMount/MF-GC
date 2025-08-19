@@ -10,5 +10,23 @@ The following (binary) connectivity is extracted from [EMdata]
 2. grc --> pc  (not used in the current simulation though)
 
  
+### How to run the code? 
+ 
+Before runnning, please check
+
+1. mf_grc.db is available inside the connectivity folder. mf_grc.db is the connectivity data extracted from [EMdata](https://github.com/htem/cb2_project_analysis). 
+
+
+
+2. Apptainer image is available in the 
+
+
+Move to src/ folder and run
+
+./compile_mod_files   #
+./run_levi_gpu.sh     # For apptainer based network run 
+ 
+ 
+ 
   
 [^1]: Nguyen, T. M., Thomas, L. A., Rhoades, J. L., Ricchi, I., Yuan, X. C., Sheridan, A., Hildebrand, D. G. C., Funke, J., Regehr, W. G., & Lee, W. A. (2023). Structured cerebellar connectivity supports resilient pattern separation. Nature, 613(7944), 543–549. https://doi.org/10.1038/s41586-022-05471-w
