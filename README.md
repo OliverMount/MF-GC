@@ -1,7 +1,6 @@
-# Mossy Fiber (MF) ->  Granule Cell (GC) Feed-Forward Network
+# Mossy Fiber (MF) ->  Granule Cell (GRC) Feed-Forward Network
 
-This repository provides a CoreNEURON compatible computational model of the cerebellar mossyfiber (MF), integrating structural connectivity data in particular from the experimental study [EMdata](https://github.com/htem/cb2_project_analysis) [^1] . The model incorporates two major cell types, namely, 1. Mossy fibers (mf)
-2. Granule cells (gc) and their experimentally identified synaptic connections.
+This repository provides a CoreNEURON compatible computational model of the cerebellar mossyfiber (MF), integrating structural connectivity data in particular from the experimental study [EMdata](https://github.com/htem/cb2_project_analysis) [^1]. The model incorporates two major cell types, namely, 1. Mossy fibers (mf) 2. Granule cells (grc) and their experimentally identified synaptic connections.
  
 
 The following (binary) connectivity is extracted from [EMdata]
@@ -17,15 +16,14 @@ Before runnning, please check
 1. mf_grc.db is available inside the connectivity folder. mf_grc.db is the connectivity data extracted from [EMdata](https://github.com/htem/cb2_project_analysis). 
 
 
+2. Apptainer image and other necessary files (python run file) specified are available in the location specified in the src/run_levi*.sh 
 
-2. Apptainer image is available in the 
 
-
-Move to src/ folder and run
+3. Move to src/ folder and run
 
 ./compile_mod_files   #
-./run_levi_gpu.sh     # For apptainer based network run 
- 
+./run_levi_gpu.sh     # For apptainer based network run on CoreNEURON-GPU
+./run_levi_cpu.sh     # For apptainer based network run on CoreNEURON-CPU
  
  
   
