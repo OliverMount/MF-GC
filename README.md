@@ -19,11 +19,11 @@ Before runnning, please check
 2. Apptainer image and other necessary files (python run file) specified are available in the location specified in the src/run_levi*.sh 
 
 
-3. Move to src/ folder and run
+3. Move to src/ folder and run the following files
 
-./compile_mod_files   #
-./run_levi_gpu.sh     # For apptainer based network run on CoreNEURON-GPU
-./run_levi_cpu.sh     # For apptainer based network run on CoreNEURON-CPU
+* ./compile_mod_files   # For compiling the mod files (change path setting here if necessary) 
+* ./run_levi_gpu.sh     # For apptainer based network run on CoreNEURON-GPU
+* ./run_levi_cpu.sh     # For apptainer based network run on CoreNEURON-CPU
  
  
   
